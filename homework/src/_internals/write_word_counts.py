@@ -1,8 +1,3 @@
-"""
-This module contains a function to write word count results to a file in TSV format.
-It creates the output directory if it doesn't exist.
-"""
-
 import os
 
 

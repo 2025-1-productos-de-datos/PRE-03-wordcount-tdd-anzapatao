@@ -1,8 +1,3 @@
-# Ejemplo del caso de uso:
-# python3 -m homework --input data/input --output data/output
-
-import os
-
 from homework.src._internals.count_words import count_words
 from homework.src._internals.parse_args import parse_args
 from homework.src._internals.preprocess_lines import preprocess_lines
@@ -17,5 +12,4 @@ def main():
     preprocessed_lines = preprocess_lines(lines)
     words = split_into_words(preprocessed_lines)
     word_counts = count_words(words)
-    write_word_counts(output_folder, word_counts)
     write_word_counts(output_folder, word_counts)
