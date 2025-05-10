@@ -22,6 +22,7 @@ def test_parse_args():
         raise Exception(f"Error running the homework script: {e}")
 
 
+##
 def test_read_all_lines():
     input_folder = "data/input/"
     lines = read_all_lines(input_folder)
